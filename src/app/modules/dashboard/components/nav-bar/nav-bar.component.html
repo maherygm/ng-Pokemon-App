@@ -1,0 +1,7 @@
+<div class="navigation">
+  <ul class="flex gap-2">
+    <li *ngFor="let link of AllLinks">
+      <a routerLink="{{ link.links }}">{{ link.title }}</a>
+    </li>
+  </ul>
+</div>

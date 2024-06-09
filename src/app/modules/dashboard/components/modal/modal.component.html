@@ -1,0 +1,6 @@
+<div class="my-custom-modal" *ngIf="open">
+  <div class="bg-modal-dark" (click)="handleClose()"></div>
+  <div class="modal-content">
+    <ng-content></ng-content>
+  </div>
+</div>
